@@ -11,6 +11,7 @@
 		CF0D88F6248177AC009A05CE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0D88F4248177AC009A05CE /* SWRevealViewController.m */; };
 		CF0D88FB2481AB72009A05CE /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D88FA2481AB72009A05CE /* ChannelVC.swift */; };
 		CF0D88FD2481AB89009A05CE /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0D88FC2481AB89009A05CE /* ChatVC.swift */; };
+		CF2AD1C42494656600C984B0 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2AD1C32494656600C984B0 /* AuthService.swift */; };
 		CF6A5A48248446D900123240 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A5A47248446D900123240 /* CreateAccount.swift */; };
 		CF8032A224817652002DADDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8032A124817652002DADDB /* AppDelegate.swift */; };
 		CF8032A424817652002DADDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8032A324817652002DADDB /* SceneDelegate.swift */; };
@@ -30,6 +31,7 @@
 		CF0D88F5248177AC009A05CE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		CF0D88FA2481AB72009A05CE /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		CF0D88FC2481AB89009A05CE /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		CF2AD1C32494656600C984B0 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CF6A5A47248446D900123240 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
 		CF80329E24817652002DADDB /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8032A124817652002DADDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		CF8032A024817652002DADDB /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				CFEED8E12493BC2300ED5A49 /* Services */,
 				CFC530002482B9A50097C734 /* Utilities */,
 				CF0D88F92481AB4C009A05CE /* Model */,
 				CF0D88F82481AB46009A05CE /* View */,
@@ -151,6 +154,14 @@
 				CFC530012482B9CC0097C734 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CFEED8E12493BC2300ED5A49 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CF2AD1C32494656600C984B0 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +287,7 @@
 				CF8032A424817652002DADDB /* SceneDelegate.swift in Sources */,
 				CFC530022482B9CC0097C734 /* Constants.swift in Sources */,
 				CF0D88F6248177AC009A05CE /* SWRevealViewController.m in Sources */,
+				CF2AD1C42494656600C984B0 /* AuthService.swift in Sources */,
 				CF6A5A48248446D900123240 /* CreateAccount.swift in Sources */,
 				CF0D88FD2481AB89009A05CE /* ChatVC.swift in Sources */,
 			);
